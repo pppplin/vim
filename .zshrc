@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/zhangweilin/.oh-my-zsh
+export ZSH=/Users/weilinzzz/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="gianu"
-
+ZSH_THEME="aphrodite"
+#ZSH_THEME="gianu"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 #python 
 #added by Anaconda3 2.5.0 installer
-export PATH="/Users/zhangweilin/anaconda/bin:$PATH"
+export PATH="/Users/weilinzzz/anaconda/bin:$PATH"
 
 # fix matplotlib import
 export LC_ALL=en_US.UTF-8
@@ -98,12 +98,12 @@ export LSCOLORS=Exfxcxdxbxegedabagacad
 
 #for grep to highlight matches
 export GREP_OPTIONS='--color=auto'
-
 #for iterm2 ls color setting
 alias ls='ls -hG'
-
+export TERM=xterm-256color
+# try color 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/zhangweilin/Y/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/zhangweilin/Y/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/weilinzzz/Y/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/weilinzzz/Y/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/zhangweilin/Y/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/zhangweilin/Y/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/weilinzzz/Y/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/weilinzzz/Y/google-cloud-sdk/completion.zsh.inc'; fi
